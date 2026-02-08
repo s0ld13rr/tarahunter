@@ -1,0 +1,19 @@
+apt_rules:
+  file_patterns:
+    - "*mimikatz*"
+    - "*sharphound*"
+    - "*adfind*"
+    - "lsass*.dmp"
+    - "nc.exe"
+    - "chisel*"
+    - "temp.ps1"
+    - "setup.exe.config"
+  check_double_extensions: false
+  ioc_hashes:
+    - "92804faaab2175dc501d73e814663058c78c0a042675a8937266357bcfb96c50"
+
+targeted_locations:
+  - "C$\\Users\\Public"
+  - "C$\\ProgramData"
+  - "C$\\Users\\*\\Downloads"
+  - "C$\\Users\\*\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Startup"
