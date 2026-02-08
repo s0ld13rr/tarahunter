@@ -1,6 +1,6 @@
 # Tarahunter v1.0.0 "Chitin Shell"
 
-**Tarahunter** is a high-speed, multi-threaded APT hunting tool designed for lateral movement detection and forensic artifact discovery in Windows environments via SMB.
+**Tarahunter** is a high-speed, multi-threaded APT hunting tool designed for lateral movement detection and forensic artifact discovery in Windows environments via SMB. The tool is initially based on Taraqan Scanner - https://github.com/but43r/Taraqan. 
 
 ## Key Features
 * **Pass-the-Hash (PtH):** Authenticate using NTLM hashes without needing plain-text passwords.
